@@ -16,6 +16,7 @@
     gap: 32px;
 }
 .btn-container{
+    margin-top: 32px;
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -90,7 +91,6 @@ margin-bottom: 16px;
     color: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
-
 }
 .badge {
     display: inline-flex;
@@ -111,13 +111,6 @@ margin-bottom: 16px;
 .badge p{
   font-size: 14px;
   color: #469165;
-}
-
-
-.dot img{
-    vertical-align: middle;
-    height:15px;
-    width:15px;
 }
 .text{
 text-align: center; 
