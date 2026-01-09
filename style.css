@@ -61,8 +61,9 @@ nav img {
     width:130px;
 }
 #hero{
-    /* background-color: blueviolet;  */
-    background:url(./assets/hero-bg.png);
+
+    /* linear-gradient(#001931), */
+    background: url(./assets/hero-bg.png);
     
 background-repeat: no-repeat;
 background-size: cover;
@@ -151,7 +152,7 @@ font-weight: bold;
     align-items: center;
     justify-content: space-between;
     gap:60px;
-    margin: 0 auto;
+    margin: 100px;
     padding-right: 20px;
     margin-bottom: 120px;
 }
