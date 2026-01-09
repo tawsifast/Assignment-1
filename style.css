@@ -90,19 +90,30 @@ margin-bottom: 16px;
     color: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
-    margin-bottom: 32px;
+
 }
 .badge {
     display: inline-flex;
-    background: #FFFFFF;
+    flex-direction: row;
+     background: #FFFFFF; 
     border: 1px solid rgba(255, 255, 255, 0.3);
-    padding: 8px 16px;
+    padding: 8px 10px;
     border-radius: 50px;
-    font-size: 14px;
     margin-bottom: 25px;
-    gap:6px;
-    color: #469165;
+    vertical-align: middle;
+    align-items: center;
 }
+.badge img{
+ width: 20px;
+ height:20px;
+}
+
+.badge p{
+  font-size: 14px;
+  color: #469165;
+}
+
+
 .dot img{
     vertical-align: middle;
     height:15px;
